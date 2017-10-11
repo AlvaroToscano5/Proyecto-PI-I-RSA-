@@ -3163,7 +3163,13 @@
           </eAnnotations>
         </ownedBehavior>
       </packagedElement>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_FThJsK3REeewdOvXkraeEg" name="RA_Reconocer Usuario" clientDependency="_NAk8AK3REeewdOvXkraeEg"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_FThJsK3REeewdOvXkraeEg" name="RA_Reconocer Usuario" clientDependency="_NAk8AK3REeewdOvXkraeEg">
+        <eAnnotations xmi:id="_PV88EK6OEee0BqIq7p0QHw" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_PV88Ea6OEee0BqIq7p0QHw" type="Class" name="Diagrama de Clases de Análisis">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_HkyBsK3REeewdOvXkraeEg" name="RA_Generar Hoja de Ruta" clientDependency="_Nf8_oK3REeewdOvXkraeEg"/>
       <packagedElement xmi:type="uml:Realization" xmi:id="_L4iV4K3REeewdOvXkraeEg" client="_Aek0AK3REeewdOvXkraeEg">
         <supplier xmi:type="uml:UseCase" href="MODELO%20DE%20CASOS%20DE%20USO.emx#_h98TgJzKEeercMAeZSSIAQ?MODELO%20DE%20CASOS%20DE%20USO/Casos%20de%20uso/Gestión%20de%20Usos%20de%20Servicio/Recargar%20Saldo?"/>
