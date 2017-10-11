@@ -3176,6 +3176,28 @@
             <element xsi:nil="true"/>
           </contents>
         </eAnnotations>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_98m_wK6PEeey5tVObVnlOw" name="Interaction1">
+          <eAnnotations xmi:id="_989lEK6PEeey5tVObVnlOw" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_989lEa6PEeey5tVObVnlOw" type="Communication" element="_98m_wK6PEeey5tVObVnlOw" name="Diagrama de Comunicación (FB)" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_989lEq6PEeey5tVObVnlOw" type="CommunicationFrame" element="_98m_wK6PEeey5tVObVnlOw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_989lE66PEeey5tVObVnlOw" type="CommunicationCompartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_989lFK6PEeey5tVObVnlOw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_989lFa6PEeey5tVObVnlOw" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_BLrj0K6QEeey5tVObVnlOw" name="Interaction2">
+          <eAnnotations xmi:id="_BLtZAK6QEeey5tVObVnlOw" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_BLtZAa6QEeey5tVObVnlOw" type="Communication" element="_BLrj0K6QEeey5tVObVnlOw" name="Diagrama de Comunicación (FA)" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_BLtZAq6QEeey5tVObVnlOw" type="CommunicationFrame" element="_BLrj0K6QEeey5tVObVnlOw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BLtZA66QEeey5tVObVnlOw" type="CommunicationCompartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_BLtZBK6QEeey5tVObVnlOw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLtZBa6QEeey5tVObVnlOw" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_L4iV4K3REeewdOvXkraeEg" client="_Aek0AK3REeewdOvXkraeEg">
         <supplier xmi:type="uml:UseCase" href="MODELO%20DE%20CASOS%20DE%20USO.emx#_h98TgJzKEeercMAeZSSIAQ?MODELO%20DE%20CASOS%20DE%20USO/Casos%20de%20uso/Gestión%20de%20Usos%20de%20Servicio/Recargar%20Saldo?"/>
