@@ -3170,7 +3170,13 @@
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_HkyBsK3REeewdOvXkraeEg" name="RA_Generar Hoja de Ruta" clientDependency="_Nf8_oK3REeewdOvXkraeEg"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_HkyBsK3REeewdOvXkraeEg" name="RA_Generar Hoja de Ruta" clientDependency="_Nf8_oK3REeewdOvXkraeEg">
+        <eAnnotations xmi:id="_ccOZUK6PEeey5tVObVnlOw" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ccOZUa6PEeey5tVObVnlOw" type="Class" name="Diagrama de Clases de Análisis">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_L4iV4K3REeewdOvXkraeEg" client="_Aek0AK3REeewdOvXkraeEg">
         <supplier xmi:type="uml:UseCase" href="MODELO%20DE%20CASOS%20DE%20USO.emx#_h98TgJzKEeercMAeZSSIAQ?MODELO%20DE%20CASOS%20DE%20USO/Casos%20de%20uso/Gestión%20de%20Usos%20de%20Servicio/Recargar%20Saldo?"/>
       </packagedElement>
