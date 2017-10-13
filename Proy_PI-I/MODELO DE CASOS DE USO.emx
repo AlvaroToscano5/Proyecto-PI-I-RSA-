@@ -1721,6 +1721,15 @@
       <memberEnd href="#_TDYNMK-YEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Recargar%20Saldo?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_TDbQgK-YEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Saldo/sistema?"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_N4G1ALACEeeDHrXJCivdbA" navigableOwnedEnd="_N4U3cLACEeeDHrXJCivdbA">
+      <ownedEnd xmi:id="_N4U3cLACEeeDHrXJCivdbA" name="cI_Recargar Online" visibility="private" association="_N4G1ALACEeeDHrXJCivdbA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_IvZ10LACEeeDHrXJCivdbA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Online?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N4XTsLACEeeDHrXJCivdbA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N4WsoLACEeeDHrXJCivdbA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_N4U3cLACEeeDHrXJCivdbA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Recargar%20Online?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_N4Yh0LACEeeDHrXJCivdbA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Online/cajera?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_1fBBMO_wEeWiR5eaYtLT7w" name="Casos de uso">
     <eAnnotations xmi:id="_1fCPUO_wEeWiR5eaYtLT7w" source="uml2.diagrams" references="_1fCPUe_wEeWiR5eaYtLT7w">
