@@ -1658,6 +1658,69 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Au70lar6EeeRYpRqDwalBA"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wsRhgK-UEeesE6BjD25xzA" navigableOwnedEnd="_wsSvoK-UEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_wsSvoK-UEeesE6BjD25xzA" name="cI_Actualizar Mobiliario/Equipo" visibility="private" association="_wsRhgK-UEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_BqJp0K-TEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Mobiliario%2FEquipo?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wsTWsa-UEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wsTWsK-UEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_wsSvoK-UEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Actualizar%20Mobiliario%2FEquipo?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_wsUk0K-UEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Mobiliario%2FEquipo/asistente%20de%20Servicio%20Técnico?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UHlHEK-WEeesE6BjD25xzA" navigableOwnedEnd="_UHmVMK-WEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_UHmVMK-WEeesE6BjD25xzA" name="cI_Menu Principal" visibility="private" association="_UHlHEK-WEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_IDMzEK6BEee6o7KiUjZ_7Q?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UHm8Qa-WEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UHm8QK-WEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_UHmVMK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_UHoKYK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20de%20Servicio%20Técnico?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dkWjgK-WEeesE6BjD25xzA" navigableOwnedEnd="_dkXxoK-WEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_dkXxoK-WEeesE6BjD25xzA" name="cI_Menu Principal" visibility="private" association="_dkWjgK-WEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_IDMzEK6BEee6o7KiUjZ_7Q?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dkYYsa-WEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dkYYsK-WEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_dkXxoK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_dkZm0K-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20del%20Dep.%20de%20Compras?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tMVlAK-WEeesE6BjD25xzA" navigableOwnedEnd="_tMWzIK-WEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_tMWzIK-WEeesE6BjD25xzA" name="cI_Menu Principal" visibility="private" association="_tMVlAK-WEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_IDMzEK6BEee6o7KiUjZ_7Q?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tMXaMa-WEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tMXaMK-WEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_tMWzIK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_tMYoUK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20del%20CAU?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tzkkIK-WEeesE6BjD25xzA" navigableOwnedEnd="_tzlyQK-WEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_tzlyQK-WEeesE6BjD25xzA" name="cI_Registrar Usuario" visibility="private" association="_tzkkIK-WEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_pAU3kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Registrar%20Usuario?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tznAYK-WEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tzmZUK-WEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_tzlyQK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Registrar%20Usuario?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_tzo1kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Registrar%20Usuario/asistente%20del%20CAU?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qlTb4K-XEeesE6BjD25xzA" navigableOwnedEnd="_qlUqAK-XEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_qlUqAK-XEeesE6BjD25xzA" name="cI_Actualizar Usuario" visibility="private" association="_qlTb4K-XEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_j3AX4K-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Usuario?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qlVREK-XEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qlUqAa-XEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_qlUqAK-XEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Actualizar%20Usuario?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_qlWfMK-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Usuario/asistente%20del%20CAU?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TDWYAK-YEeesE6BjD25xzA" navigableOwnedEnd="_TDYNMK-YEeesE6BjD25xzA">
+      <ownedEnd xmi:id="_TDYNMK-YEeesE6BjD25xzA" name="cI_Recargar Saldo" visibility="private" association="_TDWYAK-YEeesE6BjD25xzA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_e1pQIK6BEee6o7KiUjZ_7Q?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Saldo?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TDZbUa-YEeesE6BjD25xzA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TDZbUK-YEeesE6BjD25xzA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_TDYNMK-YEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Recargar%20Saldo?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_TDbQgK-YEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Saldo/sistema?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_1fBBMO_wEeWiR5eaYtLT7w" name="Casos de uso">
     <eAnnotations xmi:id="_1fCPUO_wEeWiR5eaYtLT7w" source="uml2.diagrams" references="_1fCPUe_wEeWiR5eaYtLT7w">
