@@ -186,7 +186,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_Os9_pLAyEeeNU45MWzj9lA" visible="false" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_Os9_pbAyEeeNU45MWzj9lA" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Os9_prAyEeeNU45MWzj9lA" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Os0OorAyEeeNU45MWzj9lA" x="-6996" y="-3696"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Os0OorAyEeeNU45MWzj9lA" x="-6468" y="-3696"/>
         </children>
       </contents>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_k96IMKiJEeexSapCboyL5g" type="Freeform" name="Arquitectura de Análisis">
@@ -6708,7 +6708,6 @@
         <ownedAttribute xmi:id="_PxBTELAxEeeNU45MWzj9lA" name="codigo" visibility="private"/>
         <ownedAttribute xmi:id="_QLCVkLAxEeeNU45MWzj9lA" name="descripcion" visibility="private"/>
         <ownedAttribute xmi:id="_RQx1oLAxEeeNU45MWzj9lA" name="cantidad" visibility="private"/>
-        <ownedAttribute xmi:id="_RmuQcLAxEeeNU45MWzj9lA" name="proveedor" visibility="private"/>
         <ownedAttribute xmi:id="_ShSbQLAxEeeNU45MWzj9lA" name="precioUnit" visibility="private"/>
         <ownedAttribute xmi:id="_WhKxMLAxEeeNU45MWzj9lA" name="estacion" visibility="private"/>
         <ownedAttribute xmi:id="_XIq2ELAxEeeNU45MWzj9lA" name="fechaReg" visibility="private"/>
@@ -6719,6 +6718,7 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AIhh87A2EeeNU45MWzj9lA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AIhh8rA2EeeNU45MWzj9lA" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_V5Z7MLs1EeePcaRq2t8UuA" name="fechaAct" visibility="private"/>
         <ownedOperation xmi:id="_AxrBUK-hEeesE6BjD25xzA" name="Obtiene Mobiliario"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_CmwRcK-SEeesE6BjD25xzA" name="Equipo">
@@ -6737,7 +6737,6 @@
         <ownedAttribute xmi:id="_9MAfwLAwEeeNU45MWzj9lA" name="codigo" visibility="private"/>
         <ownedAttribute xmi:id="_90v6wLAwEeeNU45MWzj9lA" name="descripcion" visibility="private"/>
         <ownedAttribute xmi:id="_-r4XELAwEeeNU45MWzj9lA" name="cantidad" visibility="private"/>
-        <ownedAttribute xmi:id="_-_3DALAwEeeNU45MWzj9lA" name="proveedor" visibility="private"/>
         <ownedAttribute xmi:id="__0EuMLAwEeeNU45MWzj9lA" name="precioUnit" visibility="private"/>
         <ownedAttribute xmi:id="_AWAWkLAxEeeNU45MWzj9lA" name="placa" visibility="private"/>
         <ownedAttribute xmi:id="_Azzs4LAxEeeNU45MWzj9lA" name="fechaReg" visibility="private"/>
@@ -6752,6 +6751,7 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BToDJrA2EeeNU45MWzj9lA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BToDJbA2EeeNU45MWzj9lA" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_tZ-pkLs1EeePcaRq2t8UuA" name="fechaAct" visibility="private"/>
         <ownedOperation xmi:id="_95Se8K-gEeesE6BjD25xzA" name="Obtiene Equipo"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_XPiTUK-SEeesE6BjD25xzA" memberEnd="_XPjhcK-SEeesE6BjD25xzA _XPl9sK-SEeesE6BjD25xzA" navigableOwnedEnd="_XPjhcK-SEeesE6BjD25xzA">
@@ -6952,9 +6952,10 @@
         <ownedAttribute xmi:id="_nbAcILAxEeeNU45MWzj9lA" name="edad" visibility="private"/>
         <ownedAttribute xmi:id="_n4OjoLAxEeeNU45MWzj9lA" name="direccion" visibility="private"/>
         <ownedAttribute xmi:id="_oQ0CwLAxEeeNU45MWzj9lA" name="tipo" visibility="private"/>
-        <ownedAttribute xmi:id="_ozFpYLAxEeeNU45MWzj9lA" name="estacion" visibility="private"/>
         <ownedAttribute xmi:id="_pI_A4LAxEeeNU45MWzj9lA" name="telefono" visibility="private"/>
         <ownedAttribute xmi:id="_8j2VsLhWEeeBnINJiegU7g" name="estado" visibility="private"/>
+        <ownedAttribute xmi:id="_JT5osLs0EeePcaRq2t8UuA" name="usuario" visibility="private"/>
+        <ownedAttribute xmi:id="_KPDpYLs0EeePcaRq2t8UuA" name="contraseña" visibility="private"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_zKwd4K_bEee6S9ZlszwO1A" memberEnd="_zKxsAK_bEee6S9ZlszwO1A _zK0IQK_bEee6S9ZlszwO1A" navigableOwnedEnd="_zKxsAK_bEee6S9ZlszwO1A">
         <ownedEnd xmi:id="_zKxsAK_bEee6S9ZlszwO1A" name="cI_Registrar Empleado" visibility="private" type="_N8OAIK_aEee6S9ZlszwO1A" association="_zKwd4K_bEee6S9ZlszwO1A">
@@ -8273,7 +8274,6 @@
         <ownedAttribute xmi:id="_GMSYALAyEeeNU45MWzj9lA" name="repLegal" visibility="private"/>
         <ownedAttribute xmi:id="_IFzeYLAyEeeNU45MWzj9lA" name="direccion" visibility="private"/>
         <ownedAttribute xmi:id="_IklsILAyEeeNU45MWzj9lA" name="telefono" visibility="private"/>
-        <ownedAttribute xmi:id="_I4kYELAyEeeNU45MWzj9lA" name="pais" visibility="private"/>
         <ownedAttribute xmi:id="_MKeNsLAyEeeNU45MWzj9lA" name="correo" visibility="private"/>
         <ownedAttribute xmi:id="_AIhh9LA2EeeNU45MWzj9lA" name="mobiliario" visibility="private" type="_Ake3sK-SEeesE6BjD25xzA" association="_AIhh8LA2EeeNU45MWzj9lA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AIhh9rA2EeeNU45MWzj9lA" value="1"/>
@@ -8283,6 +8283,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BToDI7A2EeeNU45MWzj9lA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BToDIrA2EeeNU45MWzj9lA" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_dz5skLs1EeePcaRq2t8UuA" name="fechaReg" visibility="private"/>
+        <ownedAttribute xmi:id="_e84t4Ls1EeePcaRq2t8UuA" name="fechaAct" visibility="private"/>
+        <ownedAttribute xmi:id="_gt1uILs1EeePcaRq2t8UuA" name="ctaBancaria" visibility="private"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_nE3J0LAtEeeNU45MWzj9lA" memberEnd="_nE3J0bAtEeeNU45MWzj9lA _nE3J1LAtEeeNU45MWzj9lA" navigableOwnedEnd="_nE3J0bAtEeeNU45MWzj9lA">
         <ownedEnd xmi:id="_nE3J0bAtEeeNU45MWzj9lA" name="cI_Actualizar Proveedor" visibility="private" type="_ReIR8LAtEeeNU45MWzj9lA" association="_nE3J0LAtEeeNU45MWzj9lA">
@@ -10713,9 +10716,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_do84lK_3EeeiorVVaQffgg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_Y1tRkLAvEeeNU45MWzj9lA" name="codigo" visibility="private"/>
-        <ownedAttribute xmi:id="_a23RALAvEeeNU45MWzj9lA" name="nomMobEquip" visibility="private"/>
-        <ownedAttribute xmi:id="_dPjmsLAvEeeNU45MWzj9lA" name="estacion" visibility="private"/>
-        <ownedAttribute xmi:id="_fwbA8LAvEeeNU45MWzj9lA" name="tipo" visibility="private"/>
+        <ownedAttribute xmi:id="_fwbA8LAvEeeNU45MWzj9lA" name="estado" visibility="private"/>
         <ownedAttribute xmi:id="_kaeVQLAvEeeNU45MWzj9lA" name="descripcion" visibility="private"/>
         <ownedAttribute xmi:id="_Dvb-QbA2EeeNU45MWzj9lA" name="mobiliario" visibility="private" type="_Ake3sK-SEeesE6BjD25xzA" aggregation="shared" association="_Dvb-QLA2EeeNU45MWzj9lA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dvb-Q7A2EeeNU45MWzj9lA" value="*"/>
@@ -10732,9 +10733,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VM19Ba_5EeeiorVVaQffgg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_DjrB4LAwEeeNU45MWzj9lA" name="codigo" visibility="private"/>
-        <ownedAttribute xmi:id="_EkZfELAwEeeNU45MWzj9lA" name="nomMobEquip" visibility="private"/>
-        <ownedAttribute xmi:id="_FnCAwLAwEeeNU45MWzj9lA" name="estacion" visibility="private"/>
-        <ownedAttribute xmi:id="_HATg0LAwEeeNU45MWzj9lA" name="tipo" visibility="private"/>
+        <ownedAttribute xmi:id="_HATg0LAwEeeNU45MWzj9lA" name="estado" visibility="private"/>
         <ownedAttribute xmi:id="_H5qxwLAwEeeNU45MWzj9lA" name="descripcion" visibility="private"/>
         <ownedAttribute xmi:id="_vWiLcLA1EeeNU45MWzj9lA" name="mobiliario" visibility="private" type="_Ake3sK-SEeesE6BjD25xzA" aggregation="shared" association="_vWZBgLA1EeeNU45MWzj9lA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vWiLcrA1EeeNU45MWzj9lA" value="*"/>
@@ -10785,9 +10784,7 @@
         <ownedAttribute xmi:id="_SYm10LAwEeeNU45MWzj9lA" name="nombreUsuario" visibility="private"/>
         <ownedAttribute xmi:id="_T11o0LAwEeeNU45MWzj9lA" name="apellidosUsuario" visibility="private"/>
         <ownedAttribute xmi:id="_VLMSMLAwEeeNU45MWzj9lA" name="tipoUsuario" visibility="private"/>
-        <ownedAttribute xmi:id="_WPKQoLAwEeeNU45MWzj9lA" name="estacion" visibility="private"/>
         <ownedAttribute xmi:id="_emkngLAwEeeNU45MWzj9lA" name="fecha" visibility="private"/>
-        <ownedAttribute xmi:id="_fGsSALAwEeeNU45MWzj9lA" name="nombreEmpleado" visibility="private"/>
         <ownedAttribute xmi:id="_grqEsLAwEeeNU45MWzj9lA" name="estado" visibility="private"/>
         <ownedAttribute xmi:id="_jrf58LAwEeeNU45MWzj9lA" name="descripcion" visibility="private"/>
         <ownedAttribute xmi:id="_5uU7JLA0EeeNU45MWzj9lA" name="estación" visibility="private" type="_ZOEycLAoEeeNU45MWzj9lA" association="_5uU7ILA0EeeNU45MWzj9lA">
@@ -10817,6 +10814,9 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e-dUUrA2EeeNU45MWzj9lA"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_9zKBcLhWEeeBnINJiegU7g" name="estado" visibility="private"/>
+        <ownedAttribute xmi:id="_ihaIELs2EeePcaRq2t8UuA" name="huella" visibility="private"/>
+        <ownedAttribute xmi:id="_jJUcoLs2EeePcaRq2t8UuA" name="usuario" visibility="private"/>
+        <ownedAttribute xmi:id="_jfDcELs2EeePcaRq2t8UuA" name="contraseña" visibility="private"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_YbdmkLAkEeeNU45MWzj9lA" memberEnd="_YbnXkLAkEeeNU45MWzj9lA _YbnXk7AkEeeNU45MWzj9lA" navigableOwnedEnd="_YbnXkLAkEeeNU45MWzj9lA">
         <ownedEnd xmi:id="_YbnXkLAkEeeNU45MWzj9lA" name="cI_Generar Reclamo" visibility="private" type="_OdLYgLAkEeeNU45MWzj9lA" association="_YbdmkLAkEeeNU45MWzj9lA">
@@ -14345,7 +14345,6 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WH3cIa6LEee6o7KiUjZ_7Q" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_nuEM8LAvEeeNU45MWzj9lA" name="codigo" visibility="private"/>
-        <ownedAttribute xmi:id="_e3YYwLAyEeeNU45MWzj9lA" name="dni" visibility="private"/>
         <ownedAttribute xmi:id="_gHsxILAyEeeNU45MWzj9lA" name="monto" visibility="private"/>
         <ownedAttribute xmi:id="_gb0nALAyEeeNU45MWzj9lA" name="fechaRecarga" visibility="private"/>
       </packagedElement>
@@ -14491,6 +14490,7 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VO6F07A2EeeNU45MWzj9lA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VO6F0rA2EeeNU45MWzj9lA"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="__LMBYLs1EeePcaRq2t8UuA" name="horaPartida" visibility="private"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_jai1MLAiEeeNU45MWzj9lA" memberEnd="_jai1MbAiEeeNU45MWzj9lA _jai1NLAiEeeNU45MWzj9lA" navigableOwnedEnd="_jai1MbAiEeeNU45MWzj9lA">
         <ownedEnd xmi:id="_jai1MbAiEeeNU45MWzj9lA" name="cI_Generar Hoja de Ruta" visibility="private" type="_CLz_cLAiEeeNU45MWzj9lA" association="_jai1MLAiEeeNU45MWzj9lA">
