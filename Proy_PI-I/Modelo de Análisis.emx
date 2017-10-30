@@ -1505,7 +1505,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_p_a9d6r-EeeRYpRqDwalBA" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_p_a9eKr-EeeRYpRqDwalBA" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_p_a9ear-EeeRYpRqDwalBA" type="Parent"/>
-          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_p_a9eqr-EeeRYpRqDwalBA" type="PackageContents" collapsed="true" canonical="false"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_p_a9eqr-EeeRYpRqDwalBA" type="PackageContents" canonical="false"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_a9dKr-EeeRYpRqDwalBA" x="7083" y="3425"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_utYhY6r-EeeRYpRqDwalBA" element="_utYhYKr-EeeRYpRqDwalBA" fontName="Segoe UI" fontHeight="8" fillColor="14768216" transparency="0" lineColor="11736084" lineWidth="1" showStereotype="Label">
