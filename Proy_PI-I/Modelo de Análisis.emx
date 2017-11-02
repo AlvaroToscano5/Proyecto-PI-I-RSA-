@@ -3162,8 +3162,20 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_qj33QK3QEeewdOvXkraeEg" name="RA_Buscar Mobiliario/Equipo" clientDependency="_35MSkK3QEeewdOvXkraeEg"/>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_z5LZwK3QEeewdOvXkraeEg" name="Buscar Usuario" clientDependency="_3jnEIK3QEeewdOvXkraeEg"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_qj33QK3QEeewdOvXkraeEg" name="RA_Buscar Mobiliario/Equipo" clientDependency="_35MSkK3QEeewdOvXkraeEg">
+        <eAnnotations xmi:id="_K4ha8MAHEeefTvz9EEjObQ" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_K4iCAMAHEeefTvz9EEjObQ" type="Class" name="Diagrama de Clase de Análisis">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_z5LZwK3QEeewdOvXkraeEg" name="Buscar Usuario" clientDependency="_3jnEIK3QEeewdOvXkraeEg">
+        <eAnnotations xmi:id="_48jkoMAGEeefTvz9EEjObQ" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_48jkocAGEeefTvz9EEjObQ" type="Class" name="Diagrama  Clase  de Análisis">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_3jnEIK3QEeewdOvXkraeEg" client="_z5LZwK3QEeewdOvXkraeEg">
         <supplier xmi:type="uml:UseCase" href="MODELO%20DE%20CASOS%20DE%20USO.emx#_5vSBwJzKEeercMAeZSSIAQ?MODELO%20DE%20CASOS%20DE%20USO/Casos%20de%20uso/Reutilizables/Buscar%20Usuario?"/>
       </packagedElement>
@@ -3207,7 +3219,13 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_dst-oK3QEeewdOvXkraeEg" name="RA_Generar Reportes" clientDependency="_fLFaEK3QEeewdOvXkraeEg"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_dst-oK3QEeewdOvXkraeEg" name="RA_Generar Reportes" clientDependency="_fLFaEK3QEeewdOvXkraeEg">
+        <eAnnotations xmi:id="_wUj0EMAGEeefTvz9EEjObQ" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wUkbIMAGEeefTvz9EEjObQ" type="Class" name="Diagrama de Clase de Análisis">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_fLFaEK3QEeewdOvXkraeEg" client="_dst-oK3QEeewdOvXkraeEg">
         <supplier xmi:type="uml:UseCase" href="MODELO%20DE%20CASOS%20DE%20USO.emx#_AszNgJzLEeercMAeZSSIAQ?MODELO%20DE%20CASOS%20DE%20USO/Casos%20de%20uso/Reportes/Generar%20Reportes?"/>
       </packagedElement>
