@@ -1796,21 +1796,21 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_tzkkIK-WEeesE6BjD25xzA" navigableOwnedEnd="_tzlyQK-WEeesE6BjD25xzA">
       <ownedEnd xmi:id="_tzlyQK-WEeesE6BjD25xzA" name="cI_Registrar Usuario" visibility="private" association="_tzkkIK-WEeesE6BjD25xzA">
-        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_pAU3kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Registrar%20Usuario?"/>
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_pAU3kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Usuario?"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tznAYK-WEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tzmZUK-WEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
       <memberEnd href="#_tzlyQK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Registrar%20Usuario?"/>
-      <memberEnd href="Modelo%20de%20Análisis.emx#_tzo1kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Registrar%20Usuario/asistente%20del%20CAU?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_tzo1kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Usuario/asistente%20del%20CAU?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_qlTb4K-XEeesE6BjD25xzA" navigableOwnedEnd="_qlUqAK-XEeesE6BjD25xzA">
       <ownedEnd xmi:id="_qlUqAK-XEeesE6BjD25xzA" name="cI_Actualizar Usuario" visibility="private" association="_qlTb4K-XEeesE6BjD25xzA">
-        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_j3AX4K-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Usuario?"/>
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_j3AX4K-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_UsuarioA?"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qlVREK-XEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qlUqAa-XEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
       <memberEnd href="#_qlUqAK-XEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Actualizar%20Usuario?"/>
-      <memberEnd href="Modelo%20de%20Análisis.emx#_qlWfMK-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Usuario/asistente%20del%20CAU?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_qlWfMK-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_UsuarioA/asistente%20del%20CAU?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_TDWYAK-YEeesE6BjD25xzA" navigableOwnedEnd="_TDYNMK-YEeesE6BjD25xzA">
       <ownedEnd xmi:id="_TDYNMK-YEeesE6BjD25xzA" name="cI_Recargar Saldo" visibility="private" association="_TDWYAK-YEeesE6BjD25xzA">
@@ -1956,6 +1956,101 @@
       <ownedEnd xmi:id="_umrecsDhEeecTane7jwp8w" name="" visibility="private" type="_zWZOEJfdEee8ZrZ3HqOzXw" association="_umhtcMDhEeecTane7jwp8w">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_umredMDhEeecTane7jwp8w" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_umrec8DhEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-gNUMMDnEeecTane7jwp8w" memberEnd="_-gOiUMDnEeecTane7jwp8w _-gQXgMDnEeecTane7jwp8w" navigableOwnedEnd="_-gOiUMDnEeecTane7jwp8w">
+      <ownedEnd xmi:id="_-gOiUMDnEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_-gNUMMDnEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gPJYcDnEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gPJYMDnEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_-gQXgMDnEeecTane7jwp8w" name="" visibility="private" type="_rLzjgJzFEeercMAeZSSIAQ" association="_-gNUMMDnEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gQ-kcDnEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gQ-kMDnEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="__MyGUMDnEeecTane7jwp8w" memberEnd="__MzUcMDnEeecTane7jwp8w __M1JoMDnEeecTane7jwp8w" navigableOwnedEnd="__MzUcMDnEeecTane7jwp8w">
+      <ownedEnd xmi:id="__MzUcMDnEeecTane7jwp8w" name="formUsuario" visibility="private" association="__MyGUMDnEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_2TFfgL8rEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Mantenimientos/formUsuario?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Mz7gcDnEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Mz7gMDnEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__M1JoMDnEeecTane7jwp8w" name="" visibility="private" type="_rLzjgJzFEeercMAeZSSIAQ" association="__MyGUMDnEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__M1wscDnEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__M1wsMDnEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2DjmEMDpEeecTane7jwp8w" navigableOwnedEnd="_2Dk0MMDpEeecTane7jwp8w">
+      <ownedEnd xmi:id="_2Dk0MMDpEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_2DjmEMDpEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2DwaYMDpEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2DlbQMDpEeecTane7jwp8w" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_2Dk0MMDpEeecTane7jwp8w?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/menuPrincipal_Client?"/>
+      <memberEnd href="MODELO%20DE%20DISEÑO.emx#_2DyPkMDpEeecTane7jwp8w?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client/encargado%20de%20Planeamiento?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2f8nIMDpEeecTane7jwp8w" navigableOwnedEnd="_2f91QMDpEeecTane7jwp8w">
+      <ownedEnd xmi:id="_2f91QMDpEeecTane7jwp8w" name="formGenerarHojaDeRuta" visibility="private" association="_2f8nIMDpEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_kpTv8L8sEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Servicios/formGenerarHojaDeRuta?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2f-cUMDpEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2f91QcDpEeecTane7jwp8w" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_2f91QMDpEeecTane7jwp8w?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/formGenerarHojaDeRuta?"/>
+      <memberEnd href="MODELO%20DE%20DISEÑO.emx#_2f_DYMDpEeecTane7jwp8w?MODELO%20DE%20DISEÑO/Capas/Presentación/Servicios/formGenerarHojaDeRuta/encargado%20de%20Planeamiento?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Ry0icMDqEeecTane7jwp8w" memberEnd="_Ry0iccDqEeecTane7jwp8w _Ry-TcsDqEeecTane7jwp8w" navigableOwnedEnd="_Ry0iccDqEeecTane7jwp8w">
+      <ownedEnd xmi:id="_Ry0iccDqEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_Ry0icMDqEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ry-TccDqEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ry-TcMDqEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Ry-TcsDqEeecTane7jwp8w" name="" visibility="private" type="_-dceIJ_4Eee3ysRul4BAcw" association="_Ry0icMDqEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ry-TdMDqEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ry-Tc8DqEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_S-qDcMDqEeecTane7jwp8w" memberEnd="_S-qDccDqEeecTane7jwp8w _S-qDdMDqEeecTane7jwp8w" navigableOwnedEnd="_S-qDccDqEeecTane7jwp8w">
+      <ownedEnd xmi:id="_S-qDccDqEeecTane7jwp8w" name="formGenerarHojaDeRuta" visibility="private" association="_S-qDcMDqEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_kpTv8L8sEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Servicios/formGenerarHojaDeRuta?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S-qDc8DqEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S-qDcsDqEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_S-qDdMDqEeecTane7jwp8w" name="" visibility="private" type="_-dceIJ_4Eee3ysRul4BAcw" association="_S-qDcMDqEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S-qDdsDqEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S-qDdcDqEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vAUFcMDsEeecTane7jwp8w" memberEnd="_vAVTkMDsEeecTane7jwp8w _vAXIwMDsEeecTane7jwp8w" navigableOwnedEnd="_vAVTkMDsEeecTane7jwp8w">
+      <ownedEnd xmi:id="_vAVTkMDsEeecTane7jwp8w" name="formGenerarReclamo" visibility="private" association="_vAUFcMDsEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_LfZ-ML8qEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Calidad/formGenerarReclamo?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vAV6ocDsEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vAV6oMDsEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_vAXIwMDsEeecTane7jwp8w" name="" visibility="private" type="_zWZOEJfdEee8ZrZ3HqOzXw" association="_vAUFcMDsEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vAXv0cDsEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vAXv0MDsEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XE8KEMDvEeecTane7jwp8w" memberEnd="_XFF7EMDvEeecTane7jwp8w _XFF7E8DvEeecTane7jwp8w" navigableOwnedEnd="_XFF7EMDvEeecTane7jwp8w">
+      <ownedEnd xmi:id="_XFF7EMDvEeecTane7jwp8w" name="formRecargarSaldo" visibility="private" association="_XE8KEMDvEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_sfAg4L8sEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Servicios/formRecargarSaldo?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XFF7EsDvEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XFF7EcDvEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_XFF7E8DvEeecTane7jwp8w" name="" visibility="private" type="_zWZOEJfdEee8ZrZ3HqOzXw" association="_XE8KEMDvEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XFF7FcDvEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XFF7FMDvEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9wfYYMDwEeecTane7jwp8w" memberEnd="_9wfYYcDwEeecTane7jwp8w _9wfYZMDwEeecTane7jwp8w" navigableOwnedEnd="_9wfYYcDwEeecTane7jwp8w">
+      <ownedEnd xmi:id="_9wfYYcDwEeecTane7jwp8w" name="formRecargarSaldoMaquina" visibility="private" association="_9wfYYMDwEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_0jq64L8sEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Servicios/formRecargarSaldoMaquina?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9wfYY8DwEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9wfYYsDwEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_9wfYZMDwEeecTane7jwp8w" name="" visibility="private" type="_Rv2REJzGEeercMAeZSSIAQ" association="_9wfYYMDwEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9wfYZsDwEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9wfYZcDwEeecTane7jwp8w"/>
       </ownedEnd>
     </packagedElement>
   </packagedElement>
