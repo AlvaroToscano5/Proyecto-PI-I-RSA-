@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_ssteEO_wEeWiR5eaYtLT7w" name="MODELO DE CASOS DE USO" viewpoint="">
   <eAnnotations xmi:id="_ssteEe_wEeWiR5eaYtLT7w" source="uml2.diagrams" references="_ssteEu_wEeWiR5eaYtLT7w">
     <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ssteEu_wEeWiR5eaYtLT7w" type="Usecase" name="Diagrama general CU">
@@ -1760,12 +1760,12 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_wsRhgK-UEeesE6BjD25xzA" navigableOwnedEnd="_wsSvoK-UEeesE6BjD25xzA">
       <ownedEnd xmi:id="_wsSvoK-UEeesE6BjD25xzA" name="cI_Actualizar Mobiliario/Equipo" visibility="private" association="_wsRhgK-UEeesE6BjD25xzA">
-        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_BqJp0K-TEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Mobiliario%2FEquipo?"/>
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_BqJp0K-TEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Mobiliario%2FEquipoA?"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wsTWsa-UEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wsTWsK-UEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_wsSvoK-UEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Actualizar%20Mobiliario%2FEquipo?"/>
-      <memberEnd href="Modelo%20de%20Análisis.emx#_wsUk0K-UEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Mobiliario%2FEquipo/asistente%20de%20Servicio%20Técnico?"/>
+      <memberEnd href="#_wsSvoK-UEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Actualizar%20Mobiliario%2FEquipo?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_wsUk0K-UEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Mobiliario%2FEquipoA/asistente%20de%20Servicio%20Técnico?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_UHlHEK-WEeesE6BjD25xzA" navigableOwnedEnd="_UHmVMK-WEeesE6BjD25xzA">
       <ownedEnd xmi:id="_UHmVMK-WEeesE6BjD25xzA" name="cI_Menu Principal" visibility="private" association="_UHlHEK-WEeesE6BjD25xzA">
@@ -1773,7 +1773,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UHm8Qa-WEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UHm8QK-WEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_UHmVMK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="#_UHmVMK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Menu%20Principal?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_UHoKYK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20de%20Servicio%20Técnico?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_dkWjgK-WEeesE6BjD25xzA" navigableOwnedEnd="_dkXxoK-WEeesE6BjD25xzA">
@@ -1782,7 +1782,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dkYYsa-WEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dkYYsK-WEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_dkXxoK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="#_dkXxoK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Menu%20Principal?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_dkZm0K-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20del%20Dep.%20de%20Compras?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_tMVlAK-WEeesE6BjD25xzA" navigableOwnedEnd="_tMWzIK-WEeesE6BjD25xzA">
@@ -1791,7 +1791,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tMXaMa-WEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tMXaMK-WEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_tMWzIK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Menu%20Principal?"/>
+      <memberEnd href="#_tMWzIK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Menu%20Principal?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_tMYoUK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Menu%20Principal/asistente%20del%20CAU?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_tzkkIK-WEeesE6BjD25xzA" navigableOwnedEnd="_tzlyQK-WEeesE6BjD25xzA">
@@ -1800,7 +1800,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tznAYK-WEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tzmZUK-WEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_tzlyQK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Registrar%20Usuario?"/>
+      <memberEnd href="#_tzlyQK-WEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Registrar%20Usuario?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_tzo1kK-WEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Registrar%20Usuario/asistente%20del%20CAU?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_qlTb4K-XEeesE6BjD25xzA" navigableOwnedEnd="_qlUqAK-XEeesE6BjD25xzA">
@@ -1809,7 +1809,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qlVREK-XEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qlUqAa-XEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_qlUqAK-XEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Actualizar%20Usuario?"/>
+      <memberEnd href="#_qlUqAK-XEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Actualizar%20Usuario?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_qlWfMK-XEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Mantenimientos/CI_Actualizar%20Usuario/asistente%20del%20CAU?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_TDWYAK-YEeesE6BjD25xzA" navigableOwnedEnd="_TDYNMK-YEeesE6BjD25xzA">
@@ -1818,7 +1818,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TDZbUa-YEeesE6BjD25xzA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TDZbUK-YEeesE6BjD25xzA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_TDYNMK-YEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Recargar%20Saldo?"/>
+      <memberEnd href="#_TDYNMK-YEeesE6BjD25xzA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Recargar%20Saldo?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_TDbQgK-YEeesE6BjD25xzA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Saldo/sistema?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_N4G1ALACEeeDHrXJCivdbA" navigableOwnedEnd="_N4U3cLACEeeDHrXJCivdbA">
@@ -1827,7 +1827,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N4XTsLACEeeDHrXJCivdbA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N4WsoLACEeeDHrXJCivdbA" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_N4U3cLACEeeDHrXJCivdbA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAssociation%3E/cI_Recargar%20Online?"/>
+      <memberEnd href="#_N4U3cLACEeeDHrXJCivdbA?MODELO%20DE%20CASOS%20DE%20USO/Actores/%3CAsociación%3E/cI_Recargar%20Online?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_N4Yh0LACEeeDHrXJCivdbA?MODELO%20DE%20ANALISIS/Servicios/CI_Recargar%20Online/cajera?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_1H1AMLArEeeNU45MWzj9lA" memberEnd="_1H1AMbArEeeNU45MWzj9lA _1H1ANLArEeeNU45MWzj9lA" navigableOwnedEnd="_1H1AMbArEeeNU45MWzj9lA">
@@ -1868,6 +1868,94 @@
       <ownedEnd xmi:id="_RZcbtLAsEeeNU45MWzj9lA" name="" visibility="private" type="_nmgQwJzFEeercMAeZSSIAQ" association="_RZcbsLAsEeeNU45MWzj9lA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RZcbtrAsEeeNU45MWzj9lA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RZcbtbAsEeeNU45MWzj9lA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sRiQMMDaEeecTane7jwp8w" memberEnd="_sR3AUMDaEeecTane7jwp8w _sSerYMDaEeecTane7jwp8w" navigableOwnedEnd="_sR3AUMDaEeecTane7jwp8w">
+      <ownedEnd xmi:id="_sR3AUMDaEeecTane7jwp8w" name="formEmpleado" visibility="private" association="_sRiQMMDaEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_ZK62gL8rEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Mantenimientos/formEmpleado?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sSddQMDaEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSc2MMDaEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_sSerYMDaEeecTane7jwp8w" name="" visibility="private" type="_iCUPcJzFEeercMAeZSSIAQ" association="_sRiQMMDaEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sSf5gMDaEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSfScMDaEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s66kYMDaEeecTane7jwp8w" memberEnd="_s7EVYMDaEeecTane7jwp8w _s7HYsMDaEeecTane7jwp8w" navigableOwnedEnd="_s7EVYMDaEeecTane7jwp8w">
+      <ownedEnd xmi:id="_s7EVYMDaEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_s66kYMDaEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s7FjgMDaEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s7E8cMDaEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_s7HYsMDaEeecTane7jwp8w" name="" visibility="private" type="_iCUPcJzFEeercMAeZSSIAQ" association="_s66kYMDaEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s7Im0MDaEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s7H_wMDaEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Jp_QkMDeEeecTane7jwp8w" memberEnd="_Jp_QkcDeEeecTane7jwp8w _Jp_QlMDeEeecTane7jwp8w" navigableOwnedEnd="_Jp_QkcDeEeecTane7jwp8w">
+      <ownedEnd xmi:id="_Jp_QkcDeEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_Jp_QkMDeEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jp_Qk8DeEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jp_QksDeEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Jp_QlMDeEeecTane7jwp8w" name="" visibility="private" type="_t94CgJzFEeercMAeZSSIAQ" association="_Jp_QkMDeEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jp_QlsDeEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jp_QlcDeEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KAxY4MDeEeecTane7jwp8w" memberEnd="_KAxY4cDeEeecTane7jwp8w _KA7J4cDeEeecTane7jwp8w" navigableOwnedEnd="_KAxY4cDeEeecTane7jwp8w">
+      <ownedEnd xmi:id="_KAxY4cDeEeecTane7jwp8w" name="formMobiliario/Equipo" visibility="private" association="_KAxY4MDeEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_lYtCAL8rEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Mantenimientos/formMobiliario%2FEquipo?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KA7J4MDeEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KAxY4sDeEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_KA7J4cDeEeecTane7jwp8w" name="" visibility="private" type="_t94CgJzFEeercMAeZSSIAQ" association="_KAxY4MDeEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KA7J48DeEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KA7J4sDeEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_c3eHMMDgEeecTane7jwp8w" memberEnd="_c3eHMcDgEeecTane7jwp8w _c3eHNMDgEeecTane7jwp8w" navigableOwnedEnd="_c3eHMcDgEeecTane7jwp8w">
+      <ownedEnd xmi:id="_c3eHMcDgEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_c3eHMMDgEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c3eHM8DgEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c3eHMsDgEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_c3eHNMDgEeecTane7jwp8w" name="" visibility="private" type="_nmgQwJzFEeercMAeZSSIAQ" association="_c3eHMMDgEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c3eHNsDgEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c3eHNcDgEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eMzicMDgEeecTane7jwp8w" memberEnd="_eMziccDgEeecTane7jwp8w _eMzidMDgEeecTane7jwp8w" navigableOwnedEnd="_eMziccDgEeecTane7jwp8w">
+      <ownedEnd xmi:id="_eMziccDgEeecTane7jwp8w" name="formProveedor" visibility="private" association="_eMzicMDgEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_vP9bAL8rEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Mantenimientos/formProveedor?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eMzic8DgEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eMzicsDgEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_eMzidMDgEeecTane7jwp8w" name="" visibility="private" type="_nmgQwJzFEeercMAeZSSIAQ" association="_eMzicMDgEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eMzidsDgEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eMzidcDgEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_t4hX8MDhEeecTane7jwp8w" memberEnd="_t4hX8cDhEeecTane7jwp8w _t4hX9MDhEeecTane7jwp8w" navigableOwnedEnd="_t4hX8cDhEeecTane7jwp8w">
+      <ownedEnd xmi:id="_t4hX8cDhEeecTane7jwp8w" name="menuPrincipal_Client" visibility="private" association="_t4hX8MDhEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_e1Mm0L8tEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/GUI%20Comun/menuPrincipal_Client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t4hX88DhEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t4hX8sDhEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_t4hX9MDhEeecTane7jwp8w" name="" visibility="private" type="_zWZOEJfdEee8ZrZ3HqOzXw" association="_t4hX8MDhEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t4hX9sDhEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t4hX9cDhEeecTane7jwp8w"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_umhtcMDhEeecTane7jwp8w" memberEnd="_umhtccDhEeecTane7jwp8w _umrecsDhEeecTane7jwp8w" navigableOwnedEnd="_umhtccDhEeecTane7jwp8w">
+      <ownedEnd xmi:id="_umhtccDhEeecTane7jwp8w" name="formActualizarTipoUsuario" visibility="private" association="_umhtcMDhEeecTane7jwp8w">
+        <type xmi:type="uml:Class" href="MODELO%20DE%20DISEÑO.emx#_LGRQAL8rEeefvL17IlgmEA?MODELO%20DE%20DISEÑO/Capas/Presentación/Mantenimientos/formActualizarTipoUsuario?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_umreccDhEeecTane7jwp8w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_umrecMDhEeecTane7jwp8w"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_umrecsDhEeecTane7jwp8w" name="" visibility="private" type="_zWZOEJfdEee8ZrZ3HqOzXw" association="_umhtcMDhEeecTane7jwp8w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_umredMDhEeecTane7jwp8w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_umrec8DhEeecTane7jwp8w"/>
       </ownedEnd>
     </packagedElement>
   </packagedElement>
