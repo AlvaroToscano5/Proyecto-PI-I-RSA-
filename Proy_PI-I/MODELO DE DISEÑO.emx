@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:WebModeler="http:///schemas/WebModeler/_ZEgZ3pm1Ed2Oi-ICzns2YA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w http:///schemas/WebModeler/_ZEgZ3pm1Ed2Oi-ICzns2YA/0 perfilesDise+¦o/WebModeler.epx#_ZEgZ4Jm1Ed2Oi-ICzns2YA?WebModeler/WebModeler?">
   <uml:Package xmi:id="_Wpvi4L1tEeetV5giLZuDAQ" name="MODELO DE DISEÑO">
     <eAnnotations xmi:id="_Wpvi4b1tEeetV5giLZuDAQ" source="uml2.diagrams">
@@ -8901,7 +8901,13 @@
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_lDG2EMCXEeeMraimKmJmLg" name="RD_Solicitar Mantenimiento" clientDependency="_2fKAwMCYEeeMraimKmJmLg"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_qlOa0MCXEeeMraimKmJmLg" name="RD_Generar Reclamo" clientDependency="_263sYMCYEeeMraimKmJmLg"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_srEF8MCXEeeMraimKmJmLg" name="RD_Registrar Empleado" clientDependency="_3QewAMCYEeeMraimKmJmLg"/>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_ukklQMCXEeeMraimKmJmLg" name="RD_Actualizar Empleado" clientDependency="_3sy4kMCYEeeMraimKmJmLg"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_ukklQMCXEeeMraimKmJmLg" name="RD_Actualizar Empleado" clientDependency="_3sy4kMCYEeeMraimKmJmLg">
+        <eAnnotations xmi:id="_JAghoMDREeecTane7jwp8w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_JAghocDREeecTane7jwp8w" type="Class" name="Diagrama de Clases">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_wncb8MCXEeeMraimKmJmLg" name="RD_Registrar Proveedor" clientDependency="_4IzfIMCYEeeMraimKmJmLg"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_y84pUMCXEeeMraimKmJmLg" name="RD_Actualizar Proveedor" clientDependency="_4d0F0MCYEeeMraimKmJmLg"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_2Si9kMCXEeeMraimKmJmLg" name="RD_Registrar Mobiliario/Equipo" clientDependency="_43vBsMCYEeeMraimKmJmLg"/>
